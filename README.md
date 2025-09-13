@@ -11,5 +11,5 @@ baris 31: proses READ (lihat data pertama)\
 baris 34–36: proses UPDATE (ubah data jadi “Mendung”)\
 baris 39–40: proses DELETE (hapus data)
 
-Flowchart
+Flowchart\
 ![Uploading minpro1.drawio.png…]()
