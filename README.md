@@ -3,6 +3,7 @@
 nim :2509116018,\
 Sistem informasi A*
 
+**Penjelasan code:**
 Baris 1–2 : Pilihan kondisi cuaca\
 Baris 4–8 : List informasi_cuaca berisi 3 data awal (suhu, kelembapan, kondisi)\
 Baris 10–12 : Input suhu dan kelembapan dari user\
