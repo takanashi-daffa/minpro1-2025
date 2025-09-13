@@ -19,7 +19,7 @@ User isi data suhu & kelembapan, program kasih hasil kondisi cuaca\
 <img width="526" height="97" alt="Screenshot 2025-09-13 213309" src="https://github.com/user-attachments/assets/4ec12268-cf6b-4d7a-86ac-fa67a7d45c9b" />\
 <img width="251" height="54" alt="Screenshot 2025-09-13 213320" src="https://github.com/user-attachments/assets/9a1d4423-a34d-4efb-95cd-4dec00d43d6e" />
 
-Bagian ini isinya aturan sederhana untuk nentuin cuaca\
+Bagian ini berisi langkah keputusan untuk menentukan cuaca\
 <img width="506" height="237" alt="image" src="https://github.com/user-attachments/assets/bd77f180-c3ca-42e4-9646-d4863d08018a" />
 
 Create untuk nambahin data cuaca baru ke list\
