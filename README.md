@@ -9,7 +9,8 @@ Baris 23 : Output kondisi cuaca\
 Baris 25-27 : Tambah data baru ke list\
 Baris 29-30 : Tampilkan data pertama dari list\
 Baris 32-34 : Update data pertama jadi kondisi "Mendung"\
-Baris 36–38 : Hapus data pertama dari list
+Baris 36–38 : Hapus data pertama dari list\
+<img width="933" height="950" alt="Screenshot 2025-09-13 205725" src="https://github.com/user-attachments/assets/9bd86ce9-9fa7-425c-8d3b-99786fd320ad" />
 
 Flowchart\
 <img width="865" height="1240" alt="minpro1 1 drawio" src="https://github.com/user-attachments/assets/6cb1bb77-fa2e-4a02-9710-78bd42097003" />
