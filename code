@@ -1,11 +1,17 @@
-#minpro1 dengan tema sistem informasi cuaca
-#daffa arkhabista, 2509116018
-
+#pilihan kondisi cuaca 
 kondisi = ("Cerah", "Berawan", "Hujan", "Tidak Diketahui")
 
+informasi_cuaca = [
+    (32, 55, "Cerah"),
+    (25, 70, "Berawan"),
+    (18, 85, "Hujan")
+]
+
+#input suhu dan kelembapan
 suhu = int(input("Masukkan suhu celcius: "))
 kelembapan = int(input("Masukkan kelembapan (%): "))
 
+#logika buat nentuin kondisi cuaca
 if suhu > 30 and kelembapan <= 60:
     kondisi = "Cerah"
 elif 20 <= suhu <= 30 and 60 <= kelembapan <= 80:
@@ -17,15 +23,17 @@ else:
 
 print("Cuaca:", kondisi)
 
-informasi_cuaca = []
-data = (suhu, kelembapan, kondisi)
-informasi_cuaca.append(data)
-print("Data setelah CREATE:", informasi_cuaca)
+#create untuk nambah data cuaca
+informasi_cuaca.append((suhu, kelembapan, kondisi))
+print("Data ditambahkan:", informasi_cuaca[-1])
 
-print("Data setelah READ:", informasi_cuaca[0])
+#read untuk melihat data
+print("Data pertama:", informasi_cuaca[0])
 
+#update untuk modifikasi data cuaca
 informasi_cuaca[0] = (suhu, kelembapan, "Mendung")
-print("Data setelah UPDATE:", informasi_cuaca)
+print("Data setelah update:", informasi_cuaca[0])
 
-informasi_cuaca.remove(informasi_cuaca[0])
-print("Data setelah DELETE:", informasi_cuaca)
+#remove untuk hapus data cuaca
+del informasi_cuaca[0]
+print("Data pertama dihapus:")
