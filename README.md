@@ -14,6 +14,7 @@ Baris 36–38 : Hapus data pertama dari list
 Flowchart\
 <img width="865" height="1240" alt="minpro1 1 drawio" src="https://github.com/user-attachments/assets/6cb1bb77-fa2e-4a02-9710-78bd42097003" />
 
+**penjelasan program**\
 User isi data suhu & kelembapan, program kasih hasil kondisi cuaca\
 <img width="526" height="97" alt="Screenshot 2025-09-13 213309" src="https://github.com/user-attachments/assets/4ec12268-cf6b-4d7a-86ac-fa67a7d45c9b" />\
 <img width="251" height="54" alt="Screenshot 2025-09-13 213320" src="https://github.com/user-attachments/assets/9a1d4423-a34d-4efb-95cd-4dec00d43d6e" />
