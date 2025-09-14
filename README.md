@@ -17,7 +17,6 @@ Flowchart\
 
 **penjelasan program**\
 Baris ini mendefinisikan tuple kondisi berisi jenis kondisi cuaca, list informasi_cuaca sebagai data awal cuaca (suhu, kelembapan, kondisi), dan meminta input menu CRUD dari user, lalu mengubahnya menjadi huruf kecil supaya penulisan menu konsisten.\ 
-
 tujuannya .lower agar input menu konsisten, misalnya kalau user ketik CREATE, Create, atau create tetap dianggap sama\
 <img width="655" height="249" alt="Screenshot 2025-09-14 033906" src="https://github.com/user-attachments/assets/75ad5e7f-3785-4174-a63d-115d9696ad42" />
 
