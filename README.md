@@ -13,9 +13,7 @@ Baris 61-71: Bagian delete. Meminta pengguna memilih data, lalu menghapusnya dar
 Baris 73-74: Menampilkan semua data cuaca yang ada di akhir program.
 
 Flowchart\
-<img width="762" height="1551" alt="minpro1r drawio (2)" src="https://github.com/user-attachments/assets/bec2977d-6b6f-4509-be55-2154f45a9fc9" />
-
-
+<img width="762" height="1551" alt="minpro1 6 drawio" src="https://github.com/user-attachments/assets/0449d017-0736-4d71-8bb7-01f104c9c486" />
 
 **penjelasan program**\
 Baris ini mendefinisikan tuple kondisi berisi jenis kondisi cuaca, list informasi_cuaca sebagai data awal cuaca (suhu, kelembapan, kondisi), dan meminta input menu CRUD dari user, lalu mengubahnya menjadi huruf kecil supaya penulisan menu konsisten.\ 
