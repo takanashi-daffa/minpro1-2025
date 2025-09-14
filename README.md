@@ -23,15 +23,22 @@ tujuannya .lower agar input menu konsisten, misalnya kalau user ketik CREATE, Cr
 
 
 Create untuk nambahin data cuaca baru ke list\
+Program akan meminta user memasukkan suhu dan kelembapan. Ini adalah dua nilai yang akan menjadi bagian dari data baru\
+Setelah memasukkan angka, program akan memeriksa dua angka tersebut dengan serangkaian logika if dan elif untuk menentukan kondisi cuaca (Cerah, Berawan, Hujan, atau Tidak diketahui)\
+Data baru yang terdiri dari suhu, kelembapan, dan kondisi cuaca akan digabungkan menjadi sebuah tuple. Lalu, program menggunakan .append() untuk menambahkan tuple ini ke bagian akhir dari list informasi_cuaca\
 <img width="691" height="353" alt="Screenshot 2025-09-14 033922" src="https://github.com/user-attachments/assets/a9601824-5243-4b3c-9c15-9003d4ee4c20" />
 
 Read untuk nampilin data yang udah ada\
+Fungsi ini memungkinkan user untuk melihat data yang tersimpan. Program akan meminta user untuk memilih data mana yang ingin ditampilkan. Setelah pilihan diberikan, program akan mengakses daftar data dan menyajikan informasi yang dipilih oleh user.\
+Program akan meminta user memilih data mana yang ingin dilihat (1, 2, atau 3), 
 <img width="1018" height="265" alt="Screenshot 2025-09-14 033947" src="https://github.com/user-attachments/assets/99b9f022-4284-483d-a88f-27ec72f6781c" />
 
 Update untuk ngubah data jadi data baru\
+digunakan untuk memodifikasi data yang sudah ada. Pertama, user akan diberikan pilihan data mana yang akan diperbarui. Lalu, setelah user memilih, program akan meminta masukan suhu dan kelembapan yang baru. Dengan data baru tersebut, maka data lama akan di-update di dalam daftar.\
 <img width="1038" height="522" alt="Screenshot 2025-09-14 033957" src="https://github.com/user-attachments/assets/517c6900-0a1a-4baf-9b6d-99fd9a8aaf89" />
 
 Delete untuk ngapus data dari list\
+Fungsi ini memungkinkan user untuk menghapus data yang tidak lagi diperlukan. Program akan meminta user untuk memilih data yang ingin dihapus, lalu data tersebut akan dikeluarkan dari daftar\
 <img width="996" height="284" alt="Screenshot 2025-09-14 034007" src="https://github.com/user-attachments/assets/fc907a28-76fd-43ad-a02c-e08d9f833d79" />
 
 **hasil dari coding saya**\
