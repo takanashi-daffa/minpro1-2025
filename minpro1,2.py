@@ -1,0 +1,74 @@
+# Pilihan kondisi cuaca
+kondisi = ("Cerah", "Berawan", "Hujan", "Tidak Diketahui")
+
+informasi_cuaca = [
+    (32, 55, "Cerah"),
+    (25, 70, "Berawan"),
+    (18, 85, "Hujan")
+]
+
+menu = input("Pilih aksi (create/read/update/delete): ").lower()
+
+#create untuk nambah data cuaca
+if menu == "create":
+    suhu = int(input("Masukkan suhu celcius: "))
+    kelembapan = int(input("Masukkan kelembapan (%): "))
+    if suhu > 30 and kelembapan <= 60:
+        kondisi_cuaca = "Cerah"
+    elif 20 <= suhu <= 30 and 60 <= kelembapan <= 80:
+        kondisi_cuaca = "Berawan"
+    elif suhu < 20 or kelembapan > 80:
+        kondisi_cuaca = "Hujan"
+    else:
+        kondisi_cuaca = "Tidak diketahui"
+    informasi_cuaca.append((suhu, kelembapan, kondisi_cuaca))
+    print("Data berhasil ditambahkan:", informasi_cuaca[-1])
+
+#read untuk melihat data
+elif menu == "read":
+    pilih = input("Pilih data yang ingin dilihat (1/2/3) atau ketik 'batal' untuk batal: ").lower()
+    if pilih == "batal":
+        print("Aksi dibatalkan.")
+    elif pilih in ("1", "2", "3"):
+        index = int(pilih) - 1
+        print("Data cuaca:", informasi_cuaca[index])
+    else:
+        print("Data tidak ditemukan!")
+
+#update untuk modifikasi data cuaca
+elif menu == "update":
+    pilih = input("Pilih data yang ingin diupdate (1/2/3) atau ketik 'batal' untuk batal: ").lower()
+    if pilih == "batal":
+        print("Aksi update dibatalkan.")
+    elif pilih in ("1", "2", "3"):
+        index = int(pilih) - 1
+        suhu = int(input("Masukkan suhu baru: "))
+        kelembapan = int(input("Masukkan kelembapan baru: "))
+        if suhu > 30 and kelembapan <= 60:
+            kondisi_cuaca = "Cerah"
+        elif 20 <= suhu <= 30 and 60 <= kelembapan <= 80:
+            kondisi_cuaca = "Berawan"
+        elif suhu < 20 or kelembapan > 80:
+            kondisi_cuaca = "Hujan"
+        else:
+            kondisi_cuaca = "Tidak diketahui"
+        informasi_cuaca[index] = (suhu, kelembapan, kondisi_cuaca)
+        print("Data berhasil diupdate:", informasi_cuaca[index])
+    else:
+        print("Data tidak ditemukan!")
+
+#remove untuk hapus data cuaca
+elif menu == "delete":
+    pilih = input("Pilih data yang ingin dihapus (1/2/3) atau ketik 'batal' untuk batal: ").lower()
+    if pilih == "batal":
+        print("Aksi hapus dibatalkan.")
+    elif pilih in ("1", "2", "3"):
+        index = int(pilih) - 1
+        removed = informasi_cuaca.pop(index)
+        print("Data berhasil dihapus:", removed)
+    else:
+        print("Data tidak ditemukan!")
+
+# Tampilkan semua data cuaca saat ini
+print("=== Semua Data Cuaca Saat Ini ===")
+print(informasi_cuaca)
