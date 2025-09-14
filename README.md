@@ -3,7 +3,7 @@
 nim :2509116018,\
 Sistem informasi A*
 
-**Penjelasan code:**\ (revisi wait)
+**Penjelasan code:**\
 Baris 1-8: Mendefinisikan data awal. Ada daftar data cuaca yang sudah ditentukan\
 Baris 10-11: Meminta pengguna untuk memilih salah satu aksi: create, read, update, atau delete\
 Baris 13-25: Bagian create. Mengambil data suhu dan kelembapan baru dari pengguna, menentukan kondisi cuacanya, lalu menambahkannya ke daftar\
