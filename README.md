@@ -3,7 +3,7 @@
 nim :2509116018,\
 Sistem informasi A*
 
-**Penjelasan code:**\
+**Penjelasan code:**\ (revisi wait)
 Baris 1-8: Mendefinisikan data awal. Ada daftar data cuaca yang sudah ditentukan\
 Baris 10-11: Meminta pengguna untuk memilih salah satu aksi: create, read, update, atau delete\
 Baris 13-25: Bagian create. Mengambil data suhu dan kelembapan baru dari pengguna, menentukan kondisi cuacanya, lalu menambahkannya ke daftar\
@@ -12,9 +12,9 @@ Baris 38-58: Bagian update. Meminta pengguna memilih data yang akan diubah, meng
 Baris 61-71: Bagian delete. Meminta pengguna memilih data, lalu menghapusnya dari daftar\
 Baris 73-74: Menampilkan semua data cuaca yang ada di akhir program.
 
-
 Flowchart\
-<img width="762" height="1551" alt="minpro1r drawio (1)" src="https://github.com/user-attachments/assets/9d304b35-651e-4cb5-8bc8-c08850b96c2b" />
+<img width="762" height="1551" alt="minpro1r drawio (2)" src="https://github.com/user-attachments/assets/bec2977d-6b6f-4509-be55-2154f45a9fc9" />
+
 
 
 **penjelasan program**\
