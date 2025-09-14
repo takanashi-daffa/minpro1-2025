@@ -14,7 +14,7 @@ Baris 73-74: Menampilkan semua data cuaca yang ada di akhir program.
 
 
 Flowchart\
-<img width="762" height="1551" alt="minpro1r drawio" src="https://github.com/user-attachments/assets/79fccbc7-c863-4f5a-bb40-49cf2f6ed00a" />
+<img width="762" height="1551" alt="minpro1r drawio (1)" src="https://github.com/user-attachments/assets/9d304b35-651e-4cb5-8bc8-c08850b96c2b" />
 
 
 **penjelasan program**\
