@@ -3,16 +3,14 @@
 nim :2509116018,\
 Sistem informasi A*
 
-**Penjelasan code:**\ (revisi nanti)\
-Baris 1–2 : Pilihan kondisi cuaca\
-Baris 4–8 : List informasi_cuaca berisi 3 data awal (suhu, kelembapan, kondisi)\
-Baris 10–12 : Input suhu dan kelembapan dari user\
-Baris 14–22 : Logika if-elif-else untuk menentukan kondisi cuaca\
-Baris 23 : Output kondisi cuaca\
-Baris 25-27 : Tambah data baru ke list\
-Baris 29-30 : Tampilkan data pertama dari list\
-Baris 32-34 : Update data pertama jadi kondisi "Mendung"\
-Baris 36–38 : Hapus data pertama dari list\
+**Penjelasan code:**\
+Baris 1-8: Mendefinisikan data awal. Ada daftar data cuaca yang sudah ditentukan\
+Baris 10-11: Meminta pengguna untuk memilih salah satu aksi: create, read, update, atau delete\
+Baris 13-25: Bagian create. Mengambil data suhu dan kelembapan baru dari pengguna, menentukan kondisi cuacanya, lalu menambahkannya ke daftar\
+Baris 28-36: Bagian read. Meminta pengguna memilih data yang ingin dilihat (1, 2, atau 3), lalu menampilkan data tersebut\
+Baris 38-58: Bagian update. Meminta pengguna memilih data yang akan diubah, mengambil data baru, lalu mengganti data lama di daftar\
+Baris 61-71: Bagian delete. Meminta pengguna memilih data, lalu menghapusnya dari daftar\
+Baris 73-74: Menampilkan semua data cuaca yang ada di akhir program.
 
 
 Flowchart\
